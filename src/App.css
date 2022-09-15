@@ -1,0 +1,51 @@
+label {
+  font-weight: bold;
+  margin: 21px;
+}
+
+button {
+  background-color: #bbc1f5;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid mediumslateblue;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+button:hover {
+  background-color: #d1d3ff;
+  cursor: pointer;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.header-menu {
+  height: 50px;
+  background-color: #6495EDFF;
+}
+
+.navbar-menu {
+  height: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.button-a {
+  height: 100%;
+  display: flex;
+  background-color: rgba(162, 185, 225, 0.28);
+  align-items: center;
+  padding: 0 40px;
+  text-decoration: none;
+  color: #000;
+}
+
+.button-a:hover {
+  background-color: #bbc1f5;
+}
+

@@ -1,0 +1,13 @@
+.add_movie_form > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add_movie_form > form > label {
+    margin: 10px;
+}
+
+.add_movie_form > form > button {
+    margin: 10px;
+}

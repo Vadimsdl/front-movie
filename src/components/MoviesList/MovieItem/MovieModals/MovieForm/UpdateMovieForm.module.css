@@ -1,0 +1,25 @@
+.section_movie {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #8ab6b7;
+    padding: 40px;
+    margin: 10px 30px;
+}
+
+.section_movie > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_movie > form > label {
+    margin: 19.8px;
+}
+
+.section_movie > form > button {
+    margin: 10px;
+}
